@@ -52,6 +52,12 @@ by 20% else darken it by 10% */
   color: white; }
   .dark-btn:hover {
     background-color: black; }
+  @media (max-width: 767px) {
+    .dark-btn {
+      background-color: #7f83c4; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .dark-btn {
+      background-color: #7fc49b; } }
 
 .error-btn {
   width: 100px;

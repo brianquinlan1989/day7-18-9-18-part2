@@ -1,6 +1,14 @@
 .dark-btn {
     @include button(black, 100px);
+    @include mobile {
+        background-color: #7f83c4;
+    }
+    @include tablet {
+        background-color: #7fc49b;
+    }
 }
+
+
 
 .error-btn {
     @include button(red, 100px);
